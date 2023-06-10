@@ -18,9 +18,10 @@
     "env": {
       "FLASK_ENV": "production"
     },
-    "framework": {
-      "name": "flask",
-      "version": "2.2.x"
+    "functions": {
+      "api": {
+        "runtime": "vercel-python@0.24.0"
+      }
     }
   }
   
